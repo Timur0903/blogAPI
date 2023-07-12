@@ -40,7 +40,9 @@ INSTALLED_APPS = [
     'account',
     'rest_framework',
     'todo_app',
-    'rest_framework.authtoken'
+    'rest_framework.authtoken',
+    'dj_rest_auth'
+
 ]
 
 MIDDLEWARE = [
