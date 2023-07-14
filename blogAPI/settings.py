@@ -42,7 +42,10 @@ INSTALLED_APPS = [
     'todo_app',
     'rest_framework.authtoken',
     'dj_rest_auth',
-    'category'
+    'category',
+    'post',
+    'drf_yasg',
+    'like',
 
 ]
 

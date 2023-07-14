@@ -41,7 +41,7 @@ class UserViewSet(CustomViewSet):
             return UserDetailSerializer
         return UserListSerializer
 
-    def get_permissions(self):
+    def get_permissions(self):  
         if self.request.method == 'retrieve':
             return IsAdminUser(),
         return IsAuthenticated(),
