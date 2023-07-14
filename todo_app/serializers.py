@@ -1,9 +1,9 @@
 from rest_framework import serializers
-from .models import Category, Todo
+from .models import Categorys, Todo
 
-class CategorySerializer(serializers.ModelSerializer):
+class CategorysSerializer(serializers.ModelSerializer):
     class Meta:
-        model = Category
+        model = Categorys
         fields = '__all__'
 class TodoSerializer(serializers.ModelSerializer):
 
