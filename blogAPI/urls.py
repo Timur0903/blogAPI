@@ -32,12 +32,13 @@ schema_view = get_schema_view(
 
 urlpatterns = [
     path('admin/', admin.site.urls),
-    path('docs/',schema_view.with_ui("swagger")),
-    path('account/',include('account.urls')),
-    path('todo_app/',include('todo_app.urls')),
-    path('category/',include('category.urls')),
+    path('docs/', schema_view.with_ui('swagger')),
+    path('account/', include('account.urls')),
+    path('todo_app/', include('todo_app.urls')),
+    path('category/', include('category.urls')),
     path('post/', include('post.urls')),
     path('like/', include('like.urls')),
+    path('comment/', include('comment.urls'))
 
 
 ]

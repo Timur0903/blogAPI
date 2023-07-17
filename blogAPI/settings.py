@@ -46,6 +46,7 @@ INSTALLED_APPS = [
     'post',
     'drf_yasg',
     'like',
+    'comment'
 
 ]
 
